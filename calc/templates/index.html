@@ -1,3 +1,5 @@
+{% load static %}
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -54,7 +56,7 @@
 	
 	
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://www.traveltours.in/assets/css/bootstrap.min.css" >
+    <link rel="stylesheet" href="{% static 'https://www.traveltours.in/assets/css/bootstrap.min.css' %}" >
 	<link href="https://www.traveltours.in/assets/css/jquery-ui.css" rel="stylesheet">
 	<link href="https://www.traveltours.in/assets/css/reset.css" rel="stylesheet">
 	<link href="https://www.traveltours.in/assets/css/common.css" rel="stylesheet">
@@ -427,8 +429,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 								<div>
 					<div class="deals-box">
 						<a href="https://www.traveltours.in/packages/?tag=Beach"><figure class="deals-figure">
-                            <img src="https://www.traveltours.in/uploads/deal/beach-icon.jpg" class="img-responsive">						</figure></a>
-						
+							<img src="https://www.traveltours.in/uploads/deal/beach-icon.jpg" class="img-responsive">						</figure></a>
+		
 						<div class="pack-caps text-center">
 							<h3 class="dealpackages-title ht12 text-uppercase text-center">Beach Holidays</h3>
 							<p class="shad-a">
