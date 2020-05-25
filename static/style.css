@@ -83,6 +83,7 @@ a.call-info img{flex:0 0 auto;margin-right:10px;}
 .banner-caps{max-width:829px;margin:0 auto;}
 @media(min-width:992px){.banner-section .carousel-caption{top:60%;bottom:auto;-webkit-transform:translateY(-50%);-ms-transform:translateY(-50%);transform:translateY(-50%);}
 }
+
 .banner-section .carousel .carousel-control{background:none;border:none;}
 .banner-section .carousel .carousel-indicators{bottom:10%;}
 .banner-section .carousel .carousel-indicators li{background-color:#ffffff;border:1px solid #ffffff;width:49px;height:4px;margin:0 7px 0 0;}

@@ -7,7 +7,7 @@
 .nav-right-bar{padding-left:30px;}
 .nav-section .navbar-nav > li{margin-left:15px;}
 .nav-section .navbar-nav > li > a{padding:10px;}
-.submenubtn{display:none;}
+.submenubtn{display:none; }
 .list-form{padding:5px;border:2px solid #cb1e27;border-radius:30px;background-color:#ffffff;box-shadow:0 5px 10px rgba(0,0,0,.3);}
 .brsidebar{border-right:1px solid #07162d;}
 .newsr-boxcard-caption .btn-e{min-width:200px;}

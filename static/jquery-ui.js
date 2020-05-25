@@ -63,7 +63,7 @@ value=type.floor?~~value:parseFloat(value);if(isNaN(value)){return prop.def;}
 if(type.mod){return(value+type.mod)%type.mod;}
 return 0>value?0:type.max<value?type.max:value;}
 function stringParse(string){var inst=color(),rgba=inst._rgba=[];string=string.toLowerCase();each(stringParsers,function(i,parser){var parsed,match=parser.re.exec(string),values=match&&parser.parse(match),spaceName=parser.space||"rgba";if(values){parsed=inst[spaceName](values);inst[spaces[spaceName].cache]=parsed[spaces[spaceName].cache];rgba=inst._rgba=parsed._rgba;return false;}});if(rgba.length){if(rgba.join()==="0,0,0,0"){jQuery.extend(rgba,colors.transparent);}
-return inst;}
+return inst; }
 return colors[string];}
 color.fn=jQuery.extend(color.prototype,{parse:function(red,green,blue,alpha){if(red===undefined){this._rgba=[null,null,null,null];return this;}
 if(red.jquery||red.nodeType){red=jQuery(red).css(green);green=undefined;}
